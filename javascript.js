@@ -60,11 +60,18 @@ function playRound(playerSelection, computerSelection) {
 
 
 }
-    ///let input = ("Enter either rock, paper, or scissors").toLowerCase();
     let result = playRound(playerSelection, computerSelection);
     console.log(computerSelection);
     console.log(playerSelection);
     console.log(result);
+    
+    ///--------------------------------------------------
+    //Game function- First to get 5 points wins 
+
+    function game() {
+        
+    }
+
    
 
 
