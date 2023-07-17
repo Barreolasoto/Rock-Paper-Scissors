@@ -31,7 +31,7 @@ function playRound(playerSelection, computerSelection) {
    
     ///player-rock wins
     if (playerSelection === 'rock' && computerSelection === 'scissors' ) {
-        return 'YOU WIN';
+        return 'YOU WIN!';
     }
     ///computer- rock wins
     else if (playerSelection === 'scissors' && computerSelection === 'rock') {
@@ -39,7 +39,7 @@ function playRound(playerSelection, computerSelection) {
     }
     ///player-paper wins
     else if (playerSelection === 'paper' && computerSelection === 'rock') {
-        return 'YOU WIN';
+        return 'YOU WIN!';
     }
     ///computer- paper wins
     else if (playerSelection === 'rock' && computerSelection === 'paper') {
@@ -61,16 +61,22 @@ function playRound(playerSelection, computerSelection) {
 
 }
     let result = playRound(playerSelection, computerSelection);
-    console.log(computerSelection);
-    console.log(playerSelection);
-    console.log(result);
+    //console.log(computerSelection);
+    //console.log(playerSelection);
+    //console.log(result);
     
     ///--------------------------------------------------
     //Game function- First to get 5 points wins 
 
     function game() {
-        
+       console.log(result);
+       console.log(result);
+       console.log(result);
+       console.log(result);
+       console.log(result);
     }
+
+    console.log(game());
 
    
 
